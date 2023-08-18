@@ -1,0 +1,144 @@
+// .container {
+//   max-width: 300px;
+//   margin: 50px auto;
+//   padding: 40px;
+//   background-color: #f5f5f5;
+//   border-radius: 30px;
+//   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+// }
+
+// .title {
+//   margin-top: 0;
+//   margin-bottom: 30px;
+//   font-size: 24px;
+//   color: #000000;
+// }
+
+// .input-bars {
+//   margin-bottom: 20px;
+// }
+
+// label {
+//   display: block;
+//   margin-bottom: 10px;
+//   font-size: 18px;
+// }
+
+// input[type="number"] {
+//   width: 100%;
+//   padding: 10px;
+//   font-size: 16px;
+//   border: 1px solid #ccc;
+//   border-radius: 5px;
+//   outline-color: #0c78dc;
+// }
+
+// button {
+//   display: block;
+//   width: 100%;
+//   padding: 10px;
+//   border-radius: 10px;
+//   font-size: 18px;
+//   background-color: #007bff;
+//   cursor: pointer;
+//   transition-duration: 0.3s;
+//   color: #fffdfd;
+// }
+
+// button:hover {
+//   background-color: #07e2f1;
+// }
+
+// #result {
+//   margin-top: 20px;
+//   font-size: 18px;
+//   font-weight: bold;
+//   text-align: center;
+//   color: #333333;
+//   background: #e9ecef;
+// }
+
+// #result:hover {
+//   border-radius: 10px;
+//   color: #fffdfd;
+//   background-color: #000000;
+// }
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #f0f5f9; /* Light Blueish Gray */
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #343a40; /* Dark Gray */
+}
+
+.input-bars {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #495057; /* Medium Gray */
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da; /* Light Gray */
+  border-radius: 5px;
+  outline-color: #0c78dc;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #007bff; /* Blue */
+  cursor: pointer;
+  transition-duration: 0.3s;
+  color: #ffffff; /* White */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker Blue on Hover */
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #333333; /* Dark Gray */
+  background: #e9ecef; /* Light Gray */
+  border-radius: 10px;
+}
+
+#result:hover {
+  color: #ffffff; /* White */
+  background-color: #343a40; /* Dark Gray on Hover */
+}
